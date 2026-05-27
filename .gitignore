@@ -1,0 +1,17 @@
+# Node
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.cache/
+
+# VS Code
+.history/
+.vscode/*.log
+
+# OS
+.DS_Store
+
+# Local env
+.env
+.env.local

@@ -1,0 +1,10 @@
+name: PR checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  pr-checks:
+    uses: feature-today/.github/.github/workflows/pr-checks.yml@main
+    secrets: inherit
